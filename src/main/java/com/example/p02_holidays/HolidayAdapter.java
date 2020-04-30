@@ -52,7 +52,7 @@ public class HolidayAdapter extends ArrayAdapter<Holidays> {
         tvName.setText(currentHoliday.getHoliday());
         tvDate.setText(currentHoliday.getDate());
 
-        // Set the image to prog or nonprog accordingly
+        // Set the image accordingly
         if (currentHoliday.getHoliday() == "New Year's Day") {
             ivHols.setImageResource(R.drawable.newyear);
         }
