@@ -37,20 +37,12 @@ public class SecondActivity extends AppCompatActivity {
 
         if (types == "Secular") {
             hols.add(new Holidays("New Year's Day", "1 January 2020"));
-            hols.add(new Holidays("Chinese New Year", "25 January 2020 - 26 January 2020"));
-            hols.add(new Holidays("Good Friday", "10 April 2020"));
             hols.add(new Holidays("Labour Day", "1 May 2020"));
-            hols.add(new Holidays("Vesak Day", "7 May 2020"));
-            hols.add(new Holidays("Hari Raya Puasa", "24 May 2020"));
-            hols.add(new Holidays("Hari Raya Haji", "31 July 2020"));
             hols.add(new Holidays("National Day", "9 August"));
-            hols.add(new Holidays("Deepavali", "14 November 2020"));
-            hols.add(new Holidays("Christmas", "25 December 2020"));
             aa = new HolidayAdapter(this, R.layout.row, hols);
             lv.setAdapter(aa);
 
         } else {
-            hols.add(new Holidays("New Year's Day", "1 January 2020"));
             hols.add(new Holidays("Chinese New Year", "25 January 2020 - 26 January 2020"));
             hols.add(new Holidays("Good Friday", "10 April 2020"));
             hols.add(new Holidays("Vesak Day", "7 May 2020"));
